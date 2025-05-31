@@ -6,16 +6,16 @@ Um site institucional responsivo para apoiar um projeto de extensão universitá
 
 ## 📋 Conteúdo
 
-- [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Requisitos](#requisitos)
-- [Instalação](#instalação)
-- [Executando o Projeto](#executando-o-projeto)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Personalização](#personalização)
-- [Deployment](#deployment)
-- [Licença](#licença)
+- Visão Geral
+- Funcionalidades
+- Tecnologias Utilizadas
+- Requisitos
+- Instalação
+- Executando o Projeto
+- Estrutura do Projeto
+- Personalização
+- Deployment
+- Licença
 
 ## 🔍 Visão Geral
 
