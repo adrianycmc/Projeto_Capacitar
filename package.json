@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prepare": "chmod +x node_modules/.bin/tsc || true",
     "dev": "vite",
     "build": "npx tsc -b && vite build",
     "lint": "eslint .",
