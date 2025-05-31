@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --text-main: #1f2937;
+  --text-secondary: #4b5563;
+  --background-light: #f9fafb;
+  --background-white: #ffffff;
+  --accent-light: #dbeafe;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+}
+
+/* Melhorias de acessibilidade */
+:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Aumentar contraste para textos pequenos */
+.text-gray-600 {
+  color: #4b5563;
+}
+
+/* Melhorar visibilidade de links */
+a:not(.btn) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover:not(.btn) {
+  text-decoration: underline;
+}
+
+/* Botões mais acessíveis */
+button, .btn {
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Melhorar espaçamento em dispositivos móveis */
+@media (max-width: 640px) {
+  section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Melhorar contraste em modo escuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-main: #f9fafb;
+    --text-secondary: #e5e7eb;
+    --background-light: #1f2937;
+    --background-white: #111827;
+    --accent-light: #1e3a8a;
+  }
+}
+
+/* Animações suaves */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
